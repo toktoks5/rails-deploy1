@@ -12,8 +12,8 @@ on:
         - uses: actions/checkout@v2
        
         - uses: ruby/setup-ruby@v1
-            with:
-              ruby-version: 2.6.8
+          with:
+            ruby-version: 2.6.8
 
         - name: Run bundle install
           run: |
